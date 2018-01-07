@@ -83,11 +83,19 @@ Exchanges must:
 
 Exchanges will only POST information to the directory service.
 
+Exchanges must:
+
+- Publish their address when they come up online into the directory.
+- Publish real-time min/max priced trade orders.
+
+_**Note:** REST API requests and replies will use JSON format serialization for better Web compatibility._
+
 ------------------------------
 
 ## Dependencies ##
 
 - [Java native implementation of ZeroMQ](https://github.com/zeromq/jeromq).
 - [Java native implementation of Protocol Buffers](https://github.com/google/protobuf).
+- [Jackson, JSON for Java](https://github.com/FasterXML/jackson).
 
 Dependencies are resolved using [Maven](https://maven.apache.org/).
