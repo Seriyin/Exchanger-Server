@@ -7,10 +7,11 @@ Java financial exchange server on pub-sub basis.
     - [Overview](#overview)
         - [Order processing](#order-processing)
         - [Live-Monitoring](#live-monitoring)
-        - [Communication](#communication)
-            - [Exchanges <-> Front-end](#exchanges---front-end)
-            - [Exchanges <-> Client](#exchanges---client)
-            - [Exchanges <-> Directory](#exchanges---directory)
+    - [Communication](#communication)
+        - [Exchanges <-> Front-end](#exchanges---front-end)
+        - [Exchanges <-> Client](#exchanges---client)
+        - [Exchanges <-> Directory](#exchanges---directory)
+    - [Dependencies](#dependencies)
 
 ------------------------------
 
@@ -52,21 +53,22 @@ Exchanges must inform the directory on:
 
 ------------------------------
 
-### Communication ###
+## Communication ##
 
-------------------------------
+_Serialization of all trade and consultation information will be handled through the use of [Protocol Buffers](https://github.com/google/protobuf)._
 
-#### Exchanges <-> Front-end ####
+### Exchanges <-> Front-end ###
 
 Communication must be kept between exchanges and front-end server through use of tcp [ZeroMQ sockets in native Java](https://github.com/zeromq/jeromq).
 
 Exchanges must:
 
 - Wait on trade orders to process.
+- Inform front-end of completed orders.
 
 ------------------------------
 
-#### Exchanges <-> Client ####
+### Exchanges <-> Client ###
 
 Exchanges will publish directly to clients upon discovery via front-end server using publishing ZeroMQ sockets which clients directly subscribe too.
 
@@ -75,6 +77,17 @@ Exchanges must:
 - Publish all trades in real-time for subscribed companies.
 - Cancel an active subscription for a client.
 
-#### Exchanges <-> Directory ####
+------------------------------
+
+### Exchanges <-> Directory ###
 
 Exchanges will only POST information to the directory service.
+
+------------------------------
+
+## Dependencies ##
+
+- [Java native implementation of ZeroMQ](https://github.com/zeromq/jeromq).
+- [Java native implementation of Protocol Buffers](https://github.com/google/protobuf).
+
+Dependencies are resolved using [Maven](https://maven.apache.org/).
