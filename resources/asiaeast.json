@@ -1,0 +1,32 @@
+{
+  "AsiaEast" :
+  {
+    "online" : false,
+    "name" : "AsiaEast",
+    "at" : null,
+    "companies" :
+    {
+      "Nisun" :
+      {
+        "name": "Nisun",
+        "live": false,
+        "yesterday": null,
+        "today": null
+      },
+      "Tayato" :
+      {
+        "name": "Tayato",
+        "live": false,
+        "yesterday": null,
+        "today": null
+      },
+      "Nazta" :
+      {
+        "name" : "Nazta",
+        "live" : false,
+        "yesterday" : null,
+        "today" : null
+      }
+    }
+  }
+}
