@@ -1,0 +1,23 @@
+{
+  "PSI-3" :
+  {
+    "online" : false,
+    "name" : "PSI-3",
+    "at" : null,
+    "companies" :
+    {
+      "SONAC" :
+      {
+        "name": "SONAC"
+      },
+      "JeriamoMarts" :
+      {
+        "name": "JeriamoMarts"
+      },
+      "MotaAngil" :
+      {
+        "name" : "MotaAngil"
+      }
+    }
+  }
+}
