@@ -1,14 +1,16 @@
 package http;
 
 import app.Server;
+import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpRequestFactory;
+import com.google.api.client.http.json.JsonHttpContent;
 import model.TradePeak;
 
 import java.io.IOException;
 import java.util.TimerTask;
 
 /**
- * BuildPeak makes a peak trade to send to directory.
+ * BuildPeak makes a trade peak PUT request to send to directory.
  */
 public class BuildPeak extends TimerTask
 {
@@ -27,8 +29,10 @@ public class BuildPeak extends TimerTask
     {
         try
         {
-            HttpRequestFactory rf = Server.HTTP_TRANSPORT.createRequestFactory()
-            Server.JSON_FACTORY.toString(tradePeak);
+            GenericUrl url =
+                    new GenericUrl(String.format("localhost:/api/exchanges/%s/%s", tradePeak.getExchange(), tradePeak.getName()));
+            HttpRequestFactory rf = Server.HTTP_TRANSPORT.createRequestFactory();
+            rf.buildPutRequest(url, new JsonHttpContent(Server.JSON_FACTORY, tradePeak)).executeAsync();
         }
         catch (IOException e)
         {
