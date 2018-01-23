@@ -11,6 +11,7 @@ Java financial exchange server on pub-sub basis.
         - [Exchanges <-> Front-end](#exchanges---front-end)
         - [Exchanges <-> Client](#exchanges---client)
         - [Exchanges <-> Directory](#exchanges---directory)
+    - [Installation](#installation)
     - [Dependencies](#dependencies)
 
 ------------------------------
@@ -89,6 +90,20 @@ Exchanges must:
 - Publish real-time min/max priced trade orders.
 
 _**Note:** REST API requests and replies will use JSON format serialization for better Web compatibility._
+
+------------------------------
+
+## Installation ##
+   
+Run
+
+>*$>* mvn install
+
+for local repo install or 
+
+>*$>* mvn package
+
+for .jar generation only in main directory pom.xml.
 
 ------------------------------
 
