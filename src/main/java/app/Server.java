@@ -4,6 +4,7 @@ import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.jackson2.JacksonFactory;
+import http.BuildLive;
 import http.BuildPeak;
 import model.*;
 
@@ -93,18 +94,35 @@ public class Server
         }
     }
 
-    private void cancel() throws InterruptedException
+    private void cancel()
     {
-        if(t.isAlive()) {
-            t.interrupt();
-            t.join();
+        try
+        {
+            if (t.isAlive())
+            {
+                t.interrupt();
+                t.join();
+            }
         }
+        catch (InterruptedException e)
+        {
+            e.printStackTrace();
+        }
+        finally {
+            buildDeadRequest();
+        }
+    }
+
+    private void buildDeadRequest()
+    {
+        TIMER.schedule(new BuildLive(new Address("clean exit", 0, EXCHANGE)), 0);
     }
 
 
     private void run() throws InterruptedException
     {
         setStatusUpdating();
+        buildLiveRequest();
         while(true) {
             WrapperMessageServer incoming = incomingQueue.take();
             if(incoming.hasAddress()) {
@@ -114,6 +132,11 @@ public class Server
                 registerTrade(incoming.getTradeRequest());
             }
         }
+    }
+
+    private void buildLiveRequest()
+    {
+        TIMER.schedule(new BuildLive(new Address("localhost", PORT, EXCHANGE)), 0);
     }
 
     private void registerTrade(Trade.TradeOrder trade)
