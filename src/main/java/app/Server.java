@@ -9,6 +9,7 @@ import model.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Random;
 import java.util.Timer;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -24,8 +25,8 @@ import proto.WrapperServer.WrapperMessageServer;
  */
 public class Server
 {
-    static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
-    static final JsonFactory JSON_FACTORY;
+    public static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
+    public static final JsonFactory JSON_FACTORY;
     public static final Timer TIMER;
     public static final int PORT = getRandomPort();
     public static final BlockingQueue<WrapperMessageServer> outgoingQueue;
@@ -55,6 +56,10 @@ public class Server
         return r.nextInt(48127)+1024;
     }
 
+    public static String getEXCHANGE()
+    {
+        return EXCHANGE;
+    }
 
     public Server(String arg) throws IOException
     {
@@ -62,6 +67,7 @@ public class Server
         context = ZMQ.context(1);
         exchanger = context.socket(ZMQ.DEALER);
         t = setAlternatorTaskOngoing();
+        EXCHANGE = exchange.getName();
     }
 
     /**
@@ -75,7 +81,6 @@ public class Server
         if(args.length >= 1)
         {
             Server s = new Server(args[0]);
-            EXCHANGE = args[0];
             try
             {
                 s.run();
@@ -154,12 +159,10 @@ public class Server
         Server.TIMER.schedule(new BuildPeak(new TradePeak(pps, time, name, EXCHANGE)),0);
     }
 
-    public static String getEXCHANGE()
-    {
-        return EXCHANGE;
-    }
 
-    public static void sendTrades(Trade.TradeCompleted[] trades)
+
+    public static void sendTrades(List<Trade.TradeCompleted> trades)
     {
+        Server.TIMER.schedule(new TradeTask(trades, outgoingQueue),0);
     }
 }
