@@ -3,6 +3,7 @@ package model;
 import app.Server;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sun.org.apache.xpath.internal.operations.Or;
 import proto.Trade;
 
 import java.util.*;
@@ -14,8 +15,8 @@ import java.util.*;
 public class Company
 {
     private final String name;
-    private final NavigableMap<Double, Order> buyOrders;
-    private final NavigableMap<Double, Order> sellOrders;
+    private final NavigableSet<Order> buyOrders;
+    private final NavigableSet<Order> sellOrders;
     private final Peak highPeak;
     private final Peak lowPeak;
 
@@ -23,9 +24,9 @@ public class Company
     public Company(@JsonProperty("name") String name)
     {
         this.name = name;
-        Comparator<Double> c = Comparator.naturalOrder();
-        this.buyOrders = new TreeMap<>(c.reversed());
-        this.sellOrders = new TreeMap<>();
+        Comparator<Order> c = Comparator.comparingDouble(Order::getTotal).thenComparing(Order::getQuantity);
+        this.buyOrders = new TreeSet<>(c.reversed());
+        this.sellOrders = new TreeSet<>();
         highPeak = new Peak(0,0);
         lowPeak = new Peak(0,0);
     }
@@ -62,63 +63,59 @@ public class Company
     public void registerIncomingBuy(Order b)
     {
         Order match;
-        Trade.TradeCompleted[] trades;
-        trades = new Trade.TradeCompleted[2];
-        if((match = buyOrders.floorEntry(b.getPrice())
-                              .getValue())!=null)
+        List<Trade.TradeCompleted> trades;
+        trades = new ArrayList<>(4);
+        while((match = buyOrders.floor(b))!=null)
         {
-            matchLoop(match, trades, b);
+            matchLoop(match, trades, b, buyOrders);
         }
-        else {
-            buyOrders.put(b.getPrice(),b);
+        if(b.getPrice()>=0)
+        {
+            buyOrders.add(b);
         }
+        Server.sendTrades(trades);
     }
 
     public void registerIncomingSell(Order b)
     {
         Order match;
-        Trade.TradeCompleted[] trades;
-        trades = new Trade.TradeCompleted[2];
-        while((match = sellOrders.floorEntry(b.getPrice())
-                              .getValue())!=null)
+        List<Trade.TradeCompleted> trades;
+        trades = new ArrayList<>(4);
+        while((match = sellOrders.floor(b))!=null)
         {
-            matchLoop(match, trades, b);
+            matchLoop(match, trades, b, sellOrders);
         }
         if(b.getPrice()>=0) {
-            sellOrders.put(b.getPrice(),b);
+            sellOrders.add(b);
         }
+        Server.sendTrades(trades);
     }
 
-    private void matchLoop(Order match, Trade.TradeCompleted[] trades, Order b)
+    private void matchLoop(Order match, List<Trade.TradeCompleted> trades, Order b, NavigableSet<Order> orders)
     {
         switch (match.matchOrders(b)) {
             case -1:
-                trades[0] = match.trashOrder(b)
+                trades.add(match.trashOrder(b)
                                  .setCompany(name)
                                  .setExchange(Server.getEXCHANGE())
-                                 .build();
-                trades[1] = null;
-                Server.sendTrades(trades);
+                                 .build());
+                orders.remove(match);
                 break;
             case 0:
-                int i=0;
                 for (Trade.TradeCompleted.Builder t :
                         match.trashOrders(b))
                 {
-                    trades[i] = t.setCompany(name)
-                                 .setExchange(Server.getEXCHANGE())
-                                 .build();
-                    i++;
+                    trades.add(t.setCompany(name)
+                                .setExchange(Server.getEXCHANGE())
+                                .build());
                 }
-                Server.sendTrades(trades);
+                orders.remove(match);
                 break;
             case 1:
-                trades[0] = match.trashOrder(b)
+                trades.add(match.trashOrder(b)
                                  .setCompany(name)
                                  .setExchange(Server.getEXCHANGE())
-                                 .build();
-                trades[1] = null;
-                Server.sendTrades(trades);
+                                 .build());
                 break;
             default:
                 break;
