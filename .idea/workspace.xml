@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91878388-81d9-4e5d-a679-62882d0fff02" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="addresses.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/addresses.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heartbeat.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/heartbeat.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trade.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/trade.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wrapper_server.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/wrapper_server.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/model/Company.java" />
+        <option value="$PROJECT_DIR$/resources/asiaeast.json" />
+        <option value="$PROJECT_DIR$/resources/asiawest.json" />
+        <option value="$PROJECT_DIR$/resources/dawjobes.json" />
+        <option value="$PROJECT_DIR$/resources/psi-3.json" />
+        <option value="$PROJECT_DIR$/src/app/Server.java" />
+        <option value="$PROJECT_DIR$/src/model/Exchange.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/dawjobes.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/psi-3.json" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Exchange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proto/online.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/proto/addresses.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/proto/wrapper_server.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/model/BuyOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/SellOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proto/trade.proto" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/proto/OnlineOuterClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/AddressTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/OnlineTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proto/WrapperServer.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/wrapper_server.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/app/AlternatorSocketWorker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/PeakHigh.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/PeakLow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Peak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/TradePeak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/BuildPeak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TradePeak.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/asiawest.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/asiaeast.json" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/TradeTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/http/BuildPeak.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="42" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Exchange-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exchanger-Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exchange-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exchanger-Server" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exchange-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exchanger/proto" />
+    <property name="settings.editor.selected.configurable" value="io.protostuff.jetbrains.plugin.settings.ProtobufSettingsConfigurable" />
+    <property name="add_unversioned_files" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="app" />
+      <recent name="model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Andre\Documents\Engenharia Informatica\Mestrado\SD\Paradigmas de Sistemas Distribuídos\ProjetoPSD\Exchanger-Server\src\main\java\proto" />
+      <recent name="E:\Andre\Documents\Engenharia Informatica\Mestrado\SD\Paradigmas de Sistemas Distribuídos\ProjetoPSD\Exchanger-Server\src\proto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Andre\Documents\Engenharia Informatica\Mestrado\SD\Paradigmas de Sistemas Distribuídos\ProjetoPSD\Exchanger-Server\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91878388-81d9-4e5d-a679-62882d0fff02" name="Default" comment="" />
+      <created>1515534487982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515534487982</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Use google http-client to fabricate requests to Directory.">
+      <created>1515536966956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515536966956</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added all needed dependencies to pom.">
+      <created>1515536992443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1515536992443</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Idea Project files for easy reimport.">
+      <created>1515537018312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1515537018312</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added JSONs with exchanges to conditionally import in Server to bootstrap them with correct structure.">
+      <created>1515537073924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1515537073924</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Placeholder Server main class.">
+      <created>1515537089387</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515537089387</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactored resources into standard maven structure. Trimmed unused fields.">
+      <created>1516661254762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1516661254762</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added an address outgoing task piggy backing on timer thread.">
+      <created>1516725832568</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516725832568</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added an heatbeat outgoing task repeating on a delay on timer thread.">
+      <created>1516725866150</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1516725866150</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Alternator busy waiter that fills incoming queue from socket and sends outgoing into it.">
+      <created>1516725911429</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516725911429</updated>
+    </task>
+    <task id="LOCAL-00010" summary="A Server that communicates with Protocol Buffers, ZeroMQ and HTTP.">
+      <created>1516725945299</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516725945299</updated>
+    </task>
+    <task id="LOCAL-00011" summary="A Build + Request PUT Task piggybacking on Timer thread.">
+      <created>1516725974814</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516725974814</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Company class handles looping over buy and sell requests to match them and eventually fulfill them.">
+      <created>1516726022803</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726022803</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Simple Exchange POJO has important exchange properties.">
+      <created>1516726056296</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726056296</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Order must know it's company to forward checking peaks.">
+      <created>1516726091236</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726091236</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Peak is a POJO JSONable that marks a peak price per stock transactioned at a given server time.">
+      <created>1516726151696</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726151696</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TradePeak will be used to deserialize into JSON for PUT request into directory.">
+      <created>1516726191486</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726191486</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added necessary proto messages traded with exchanger + wrapper to extract them safely.">
+      <created>1516726236706</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726236706</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Subtract redundant properties for Exchanger-Server.">
+      <created>1516726266238</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726266238</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added useful ignores for build and VSCode java language server.">
+      <created>1516726298175</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726298175</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Project restructring around Maven canonical directories.">
+      <created>1516726388644</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726388644</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Pom adds explicit protobuf 3 version + auto-source generation via plugin + artifact.">
+      <created>1516726437137</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1516726437137</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Send Trades refactored into trade list.">
+      <created>1516729064141</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1516729064141</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Trade Task adds trade completions into outgoing queue.">
+      <created>1516729112958</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1516729112958</updated>
+    </task>
+    <task id="LOCAL-00024" summary="BuildPeak sends a PUT request to update peak trades for company.">
+      <created>1516729392447</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1516729392447</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Refactor into NavigableSet + List of trades. Send trades in bulk (short lists).">
+      <created>1516729437638</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1516729437638</updated>
+    </task>
+    <task id="LOCAL-00026" summary="TradePeak is a JSONable Immutable POJO.">
+      <created>1516729467021</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1516729467021</updated>
+    </task>
+    <task id="LOCAL-00027" summary="extra ignores for compiled protos for IDE integrated static checking.">
+      <created>1516729951438</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1516729951438</updated>
+    </task>
+    <task id="LOCAL-00028" summary="maven library IDEA indexing.">
+      <created>1516729993421</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1516729993421</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="2578" height="1458" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="91" y="91" width="2378" height="1258" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14544722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983872" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added JSONs with exchanges to conditionally import in Server to bootstrap them with correct structure." />
+    <MESSAGE value="Placeholder Server main class." />
+    <MESSAGE value="Refactored resources into standard maven structure. Trimmed unused fields." />
+    <MESSAGE value="Added an address outgoing task piggy backing on timer thread." />
+    <MESSAGE value="Added an heatbeat outgoing task repeating on a delay on timer thread." />
+    <MESSAGE value="Alternator busy waiter that fills incoming queue from socket and sends outgoing into it." />
+    <MESSAGE value="A Server that communicates with Protocol Buffers, ZeroMQ and HTTP." />
+    <MESSAGE value="A Build + Request PUT Task piggybacking on Timer thread." />
+    <MESSAGE value="Company class handles looping over buy and sell requests to match them and eventually fulfill them." />
+    <MESSAGE value="Simple Exchange POJO has important exchange properties." />
+    <MESSAGE value="Order must know it's company to forward checking peaks." />
+    <MESSAGE value="Peak is a POJO JSONable that marks a peak price per stock transactioned at a given server time." />
+    <MESSAGE value="TradePeak will be used to deserialize into JSON for PUT request into directory." />
+    <MESSAGE value="Added necessary proto messages traded with exchanger + wrapper to extract them safely." />
+    <MESSAGE value="Subtract redundant properties for Exchanger-Server." />
+    <MESSAGE value="Added useful ignores for build and VSCode java language server." />
+    <MESSAGE value="Project restructring around Maven canonical directories." />
+    <MESSAGE value="Pom adds explicit protobuf 3 version + auto-source generation via plugin + artifact." />
+    <MESSAGE value="Send Trades refactored into trade list." />
+    <MESSAGE value="Trade Task adds trade completions into outgoing queue." />
+    <MESSAGE value="BuildPeak sends a PUT request to update peak trades for company." />
+    <MESSAGE value="Refactor into NavigableSet + List of trades. Send trades in bulk (short lists)." />
+    <MESSAGE value="TradePeak is a JSONable Immutable POJO." />
+    <MESSAGE value="extra ignores for compiled protos for IDE integrated static checking." />
+    <MESSAGE value="maven library IDEA indexing." />
+    <option name="LAST_COMMIT_MESSAGE" value="maven library IDEA indexing." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/psi-3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dawjobes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/asiawest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/asiaeast.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/app/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/psi-3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dawjobes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/asiawest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/asiaeast.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Company.java" />
+    <entry file="file://$PROJECT_DIR$/src/app/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/proto/addresses.proto" />
+    <entry file="file://$PROJECT_DIR$/src/proto/trade.proto" />
+    <entry file="file://$PROJECT_DIR$/src/model/Exchange.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dawjobes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/psi-3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Exchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#1050#1051#0" expanded="false" />
+            <element signature="e#1082#1083#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/BuyOrder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/SellOrder.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/proto/Addresses.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/proto/OnlineOuterClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/proto/Addresses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proto/Heartbeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proto/WrapperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="380" column="7" lean-forward="true" selection-start-line="380" selection-start-column="7" selection-end-line="380" selection-end-column="7" />
+          <folding>
+            <element signature="e#11808#11809#0" expanded="false" />
+            <element signature="e#11846#11847#0" expanded="false" />
+            <element signature="e#21298#21299#0" expanded="false" />
+            <element signature="e#21347#21348#0" expanded="false" />
+            <element signature="e#22226#22227#0" expanded="false" />
+            <element signature="e#22318#22319#0" expanded="false" />
+            <element signature="e#22758#22759#0" expanded="false" />
+            <element signature="e#22809#22810#0" expanded="false" />
+            <element signature="e#23452#23453#0" expanded="false" />
+            <element signature="e#23544#23545#0" expanded="false" />
+            <element signature="e#25266#25267#0" expanded="false" />
+            <element signature="e#25314#25315#0" expanded="false" />
+            <element signature="e#27795#27796#0" expanded="false" />
+            <element signature="e#27824#27825#0" expanded="false" />
+            <element signature="e#28994#28995#0" expanded="false" />
+            <element signature="e#29028#29029#0" expanded="false" />
+            <element signature="e#29531#29532#0" expanded="false" />
+            <element signature="e#29566#29567#0" expanded="false" />
+            <element signature="e#30069#30070#0" expanded="false" />
+            <element signature="e#30102#30103#0" expanded="false" />
+            <element signature="e#30614#30615#0" expanded="false" />
+            <element signature="e#30654#30655#0" expanded="false" />
+            <element signature="e#31331#31332#0" expanded="false" />
+            <element signature="e#31373#31374#0" expanded="false" />
+            <element signature="e#34059#34060#0" expanded="false" />
+            <element signature="e#34119#34120#0" expanded="false" />
+            <element signature="e#35676#35677#0" expanded="false" />
+            <element signature="e#35718#35719#0" expanded="false" />
+            <element signature="e#38497#38498#0" expanded="false" />
+            <element signature="e#38564#38565#0" expanded="false" />
+            <element signature="e#40110#40111#0" expanded="false" />
+            <element signature="e#40152#40153#0" expanded="false" />
+            <element signature="e#42769#42770#0" expanded="false" />
+            <element signature="e#42830#42831#0" expanded="false" />
+            <element signature="e#44321#44322#0" expanded="false" />
+            <element signature="e#44363#44364#0" expanded="false" />
+            <element signature="e#47020#47021#0" expanded="false" />
+            <element signature="e#47082#47083#0" expanded="false" />
+            <element signature="e#49092#49093#0" expanded="false" />
+            <element signature="e#49129#49130#0" expanded="false" />
+            <element signature="e#49223#49617#0" expanded="false" />
+            <element signature="e#49616#49617#0" expanded="false" />
+            <element signature="e#49696#49697#0" expanded="false" />
+            <element signature="e#49723#49724#0" expanded="false" />
+            <element signature="e#49819#49820#0" expanded="false" />
+            <element signature="e#49846#49847#0" expanded="false" />
+            <element signature="e#49923#49924#0" expanded="false" />
+            <element signature="e#49960#49961#0" expanded="false" />
+            <element signature="e#50333#50334#0" expanded="false" />
+            <element signature="e#50360#50361#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/AlternatorSocketWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2274">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/AddressTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PeakHigh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PeakLow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Peak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/TradePeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/BuildPeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/asiawest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/asiaeast.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="96" column="19" lean-forward="true" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/OnlineTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/TradeTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/http/BuildPeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TradePeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="163" column="60" lean-forward="false" selection-start-line="163" selection-start-column="60" selection-end-line="163" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/addresses.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proto/Trade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/heartbeat.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/trade.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/wrapper_server.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
