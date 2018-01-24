@@ -70,7 +70,16 @@ public class AlternatorSocketWorker implements Runnable
             }
         }
         catch (InterruptedException e){
-                e.printStackTrace();
+            e.printStackTrace();
+        }
+        finally {
+            WrapperMessageServer.Builder message = WrapperMessageServer.newBuilder();
+            message.setIsOnline(true);
+            Online.Builder builder = Online.newBuilder();
+            builder.setName(Server.getEXCHANGE());
+            builder.setStatus(404);
+            message.setOnline(builder);
+            exchanger.add(message.build().toByteArray());
         }
     }
 
