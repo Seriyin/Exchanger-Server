@@ -125,7 +125,7 @@ public class Server
         buildLiveRequest();
         while(true) {
             WrapperMessageServer incoming = incomingQueue.take();
-            if(incoming.hasAddress()) {
+            if(incoming.hasAddressRequest()) {
                 respondWithAddress();
             }
             else if(incoming.hasTradeRequest()) {
