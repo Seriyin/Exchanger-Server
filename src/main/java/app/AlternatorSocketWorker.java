@@ -2,6 +2,7 @@ package app;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import org.zeromq.ZMQ;
+import proto.Heartbeat;
 import proto.WrapperServer.WrapperMessageServer;
 import java.nio.ByteBuffer;
 import java.util.concurrent.BlockingQueue;
@@ -75,11 +76,11 @@ public class AlternatorSocketWorker implements Runnable
         finally {
             WrapperMessageServer.Builder message = WrapperMessageServer.newBuilder();
             message.setIsOnline(true);
-            Online.Builder builder = Online.newBuilder();
+            Heartbeat.Online.Builder builder = Heartbeat.Online.newBuilder();
             builder.setName(Server.getEXCHANGE());
             builder.setStatus(404);
             message.setOnline(builder);
-            exchanger.add(message.build().toByteArray());
+            exchanger.send(message.build().toByteArray());
         }
     }
 
