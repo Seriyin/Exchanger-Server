@@ -82,7 +82,7 @@ Exchanges must:
 
 ### Exchanges <-> Directory ###
 
-Exchanges will only POST information to the directory service.
+Exchanges will only PUT information to the directory service.
 
 Exchanges must:
 
@@ -103,7 +103,7 @@ for local repo install or
 
 >*$>* mvn package
 
-for .jar generation only in main directory pom.xml.
+for fat .jar generation only in main directory pom.xml.
 
 ------------------------------
 
