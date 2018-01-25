@@ -1,9 +1,9 @@
-package app;
+package pt.um.exchanger.app;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import org.zeromq.ZMQ;
-import proto.Heartbeat;
-import proto.WrapperServer.WrapperMessageServer;
+import pt.um.exchanger.proto.Heartbeat;
+import pt.um.exchanger.proto.WrapperServer.WrapperMessageServer;
 import java.nio.ByteBuffer;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;

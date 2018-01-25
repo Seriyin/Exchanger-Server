@@ -1,8 +1,8 @@
-package app;
+package pt.um.exchanger.app;
 
-import proto.Addresses;
-import proto.Addresses.Address;
-import proto.WrapperServer.WrapperMessageServer;
+import pt.um.exchanger.proto.Addresses;
+import pt.um.exchanger.proto.Addresses.Address;
+import pt.um.exchanger.proto.WrapperServer.WrapperMessageServer;
 import java.util.TimerTask;
 import java.util.concurrent.BlockingQueue;
 
@@ -29,7 +29,7 @@ public class AddressTask extends TimerTask
         message.setIsAddress(true);
         Address.Builder builder = Address.newBuilder();
         builder.setHost("localhost");
-        builder.setPort(Server.PORT);
+        builder.setPort(Server.getPORT());
         builder.setName(name);
         builder.setType(Addresses.type.EXCHANGE);
         message.setAddress(builder);

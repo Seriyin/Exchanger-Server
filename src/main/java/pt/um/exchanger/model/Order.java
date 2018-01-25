@@ -1,7 +1,7 @@
-package model;
+package pt.um.exchanger.model;
 
-import app.Server;
-import proto.Trade;
+import pt.um.exchanger.app.Server;
+import pt.um.exchanger.proto.Trade;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

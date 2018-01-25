@@ -1,9 +1,9 @@
-package app;
+package pt.um.exchanger.app;
 
 import com.google.protobuf.MessageLite;
 import org.zeromq.ZMQ;
-import proto.WrapperServer.WrapperMessageServer;
-import proto.Heartbeat.Online;
+import pt.um.exchanger.proto.WrapperServer.WrapperMessageServer;
+import pt.um.exchanger.proto.Heartbeat.Online;
 
 import java.util.TimerTask;
 import java.util.concurrent.BlockingQueue;

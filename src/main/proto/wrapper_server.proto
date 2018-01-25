@@ -3,7 +3,7 @@ import "trade.proto";
 import "addresses.proto";
 import "heartbeat.proto";
 
-package proto;
+package pt.um.exchanger.proto;
 
 message WrapperMessageServer {
     bool isOnline = 1;

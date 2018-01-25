@@ -1,9 +1,9 @@
-package app;
+package pt.um.exchanger.app;
 
-import proto.Trade;
-import proto.Trade.TradeCompleted;
-import proto.WrapperServer;
-import proto.WrapperServer.WrapperMessageServer;
+import pt.um.exchanger.proto.Trade;
+import pt.um.exchanger.proto.Trade.TradeCompleted;
+import pt.um.exchanger.proto.WrapperServer;
+import pt.um.exchanger.proto.WrapperServer.WrapperMessageServer;
 
 import java.util.List;
 import java.util.TimerTask;

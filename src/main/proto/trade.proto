@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package proto;
+package pt.um.exchanger.proto;
 
 message TradeOrder
 {
