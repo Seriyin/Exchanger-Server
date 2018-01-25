@@ -1,12 +1,12 @@
-package app;
+package pt.um.exchanger.app;
 
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.jackson2.JacksonFactory;
-import http.BuildLive;
-import http.BuildPeak;
-import model.*;
+import pt.um.exchanger.http.BuildLive;
+import pt.um.exchanger.http.BuildPeak;
+import pt.um.exchanger.model.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -18,8 +18,8 @@ import java.util.concurrent.BlockingQueue;
 
 import org.zeromq.ZMQ;
 import org.zeromq.ZMQ.Socket;
-import proto.Trade;
-import proto.WrapperServer.WrapperMessageServer;
+import pt.um.exchanger.proto.Trade;
+import pt.um.exchanger.proto.WrapperServer.WrapperMessageServer;
 
 /**
  * Exchange server main class, sets up connections and serves HTTP requests.
@@ -29,7 +29,7 @@ public class Server
     public static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
     public static final JsonFactory JSON_FACTORY;
     public static final Timer TIMER;
-    public static final int PORT = getRandomPort();
+    private static int PORT;
     public static final BlockingQueue<WrapperMessageServer> outgoingQueue;
     public static final BlockingQueue<WrapperMessageServer> incomingQueue;
     private static String EXCHANGE;
@@ -45,28 +45,26 @@ public class Server
         incomingQueue = new ArrayBlockingQueue<>(500);
     }
 
-    /**
-     * Try to get a random user port.
-     * <p>
-     * User ports are in range 1024-(48127+1024).
-     * @return a random user port.
-     */
-    private static int getRandomPort()
-    {
-        Random r = new Random();
-        return r.nextInt(48127)+1024;
-    }
-
     public static String getEXCHANGE()
     {
         return EXCHANGE;
     }
 
+
+    public static int getPORT() {
+        return PORT;
+    }
+
     public Server(String arg) throws IOException
     {
-        exchange = JSON_FACTORY.fromInputStream(new FileInputStream("./" + arg + ".json"), Exchange.class);
+        exchange = JSON_FACTORY.fromInputStream(ClassLoader.getSystemResourceAsStream(  arg + ".json"), Exchange.class);
+        exchange.getCompanies().values().forEach(c -> c.initialize());
         context = ZMQ.context(1);
         exchanger = context.socket(ZMQ.DEALER);
+        PORT = exchanger.bindToRandomPort("tcp://localhost",10002,45000);
+        exchange.setPort(PORT);
+        exchange.setHost("localhost");
+        exchanger.connect("tcp://localhost:10000");
         t = setAlternatorTaskOngoing();
         EXCHANGE = exchange.getName();
     }
