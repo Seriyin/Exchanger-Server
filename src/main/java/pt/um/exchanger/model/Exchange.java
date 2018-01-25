@@ -1,7 +1,8 @@
-package model;
+package pt.um.exchanger.model;
 
-import app.OnlineTask;
-import app.Server;
+import com.google.api.client.util.Key;
+import pt.um.exchanger.app.OnlineTask;
+import pt.um.exchanger.app.Server;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -15,37 +16,47 @@ import java.util.TimerTask;
  */
 public class Exchange
 {
-    private InetSocketAddress at;
+    @Key
+    private String host;
+
+    @Key
+    private int port;
+
+    @Key
     private String name;
+
+    @Key
     private Map<String,Company> companies;
 
-    @JsonCreator
-    public Exchange(@JsonProperty("at") InetSocketAddress at,
-                    @JsonProperty("name") String name,
-                    @JsonProperty("companies") Map<String, Company> companies)
-    {
-        this.at = at;
-        this.name = name;
-        this.companies = companies;
-    }
 
-    @JsonProperty
     public InetSocketAddress getAt()
     {
-        return at;
+        return new InetSocketAddress(host, port);
     }
 
-    @JsonProperty
+    public String getHost() {
+        return host;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
     public String getName()
     {
         return name;
     }
 
-    @JsonProperty
     public Map<String, Company> getCompanies()
     {
         return companies;
     }
 
+    public void setPort(int port) {
+        this.port = port;
+    }
 
+    public void setHost(String host) {
+        this.host = host;
+    }
 }

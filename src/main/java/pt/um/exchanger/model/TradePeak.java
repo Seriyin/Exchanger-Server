@@ -1,23 +1,33 @@
-package model;
+package pt.um.exchanger.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.api.client.util.Key;
 
 /**
  * A TradePeak JSONable for HTTP PUT.
  */
 public class TradePeak
 {
-    private final double pps;
-    private final long time;
-    private final String name;
-    private final String exchange;
+    @Key
+    private double pps;
 
-    @JsonCreator
-    public TradePeak(@JsonProperty("pps") double pps,
-                     @JsonProperty("time") long time,
-                     @JsonProperty("name") String name,
-                     @JsonProperty("exchange") String exchange)
+    @Key
+    private long time;
+
+    @Key
+    private String name;
+
+    @Key
+    private String exchange;
+
+    public TradePeak() {}
+
+
+    public TradePeak(double pps,
+                     long time,
+                     String name,
+                     String exchange)
     {
 
         this.pps = pps;
@@ -26,25 +36,21 @@ public class TradePeak
         this.exchange = exchange;
     }
 
-    @JsonProperty
     public double getPps()
     {
         return pps;
     }
 
-    @JsonProperty
     public long getTime()
     {
         return time;
     }
 
-    @JsonProperty
     public String getName()
     {
         return name;
     }
 
-    @JsonProperty
     public String getExchange()
     {
         return exchange;
