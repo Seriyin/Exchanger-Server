@@ -1,10 +1,11 @@
-package model;
+package pt.um.exchanger.model;
 
-import app.Server;
+import com.google.api.client.util.Key;
+import pt.um.exchanger.app.Server;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.sun.org.apache.xpath.internal.operations.Or;
-import proto.Trade;
+import pt.um.exchanger.proto.Trade;
 
 import java.util.*;
 
@@ -14,29 +15,27 @@ import java.util.*;
  */
 public class Company
 {
-    private final String name;
-    private final NavigableSet<Order> buyOrders;
-    private final NavigableSet<Order> sellOrders;
-    private final Peak highPeak;
-    private final Peak lowPeak;
+    @Key
+    private String name;
 
-    @JsonCreator
-    public Company(@JsonProperty("name") String name)
+    private NavigableSet<Order> buyOrders;
+    private NavigableSet<Order> sellOrders;
+    private Peak highPeak;
+    private Peak lowPeak;
+
+    public String getName()
     {
-        this.name = name;
+        return name;
+    }
+
+
+    public void initialize() {
         Comparator<Order> c = Comparator.comparingDouble(Order::getTotal).thenComparing(Order::getQuantity);
         this.buyOrders = new TreeSet<>(c.reversed());
         this.sellOrders = new TreeSet<>();
         highPeak = new Peak(0,0);
         lowPeak = new Peak(0,0);
     }
-
-    @JsonProperty
-    public String getName()
-    {
-        return name;
-    }
-
 
     int checkPeak(double pps,
                   long time)
