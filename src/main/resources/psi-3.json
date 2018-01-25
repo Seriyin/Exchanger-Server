@@ -1,22 +1,19 @@
 {
-  "PSI-3" :
+  "name" : "PSI-3",
+  "at" : null,
+  "companies" :
   {
-    "name" : "PSI-3",
-    "at" : null,
-    "companies" :
+    "SONAC" :
     {
-      "SONAC" :
-      {
-        "name": "SONAC"
-      },
-      "JeriamoMarts" :
-      {
-        "name": "JeriamoMarts"
-      },
-      "MotaAngil" :
-      {
-        "name" : "MotaAngil"
-      }
+      "name": "SONAC"
+    },
+    "JeriamoMarts" :
+    {
+      "name": "JeriamoMarts"
+    },
+    "MotaAngil" :
+    {
+      "name" : "MotaAngil"
     }
   }
 }

@@ -1,22 +1,19 @@
 {
-  "DawJobes" :
+  "name" : "DawJobes",
+  "at" : null,
+  "companies" :
   {
-    "name" : "DawJobes",
-    "at" : null,
-    "companies" :
+    "Arple" :
     {
-      "Arple" :
-      {
-        "name": "Arple"
-      },
-      "Samshung" :
-      {
-        "name": "Samshung"
-      },
-      "Geggle" :
-      {
-        "name" : "Geggle"
-      }
+      "name": "Arple"
+    },
+    "Samshung" :
+    {
+      "name": "Samshung"
+    },
+    "Geggle" :
+    {
+      "name" : "Geggle"
     }
   }
 }

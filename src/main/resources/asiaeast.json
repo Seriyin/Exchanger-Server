@@ -1,22 +1,18 @@
 {
-  "AsiaEast" :
+  "name" : "AsiaEast",
+  "companies" :
   {
-    "name" : "AsiaEast",
-    "at" : null,
-    "companies" :
+    "Nisun" :
     {
-      "Nisun" :
-      {
-        "name": "Nisun"
-      },
-      "Tayato" :
-      {
-        "name": "Tayato"
-      },
-      "Nazta" :
-      {
-        "name" : "Nazta"
-      }
+      "name": "Nisun"
+    },
+    "Tayato" :
+    {
+      "name": "Tayato"
+    },
+    "Nazta" :
+    {
+      "name" : "Nazta"
     }
   }
 }

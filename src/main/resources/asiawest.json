@@ -1,22 +1,19 @@
 {
-  "AsiaWest" :
+  "name" : "AsiaWest",
+  "at" : null,
+  "companies" :
   {
-    "name" : "AsiaWest",
-    "at" : null,
-    "companies" :
+    "RussiOil" :
     {
-      "RussiOil" :
-      {
-        "name": "RussiOil"
-      },
-      "IndiaGP" :
-      {
-        "name": "IndiaGP"
-      },
-      "ShenzenCorp" :
-      {
-        "name" : "ShenzenCorp"
-      }
+      "name": "RussiOil"
+    },
+    "IndiaGP" :
+    {
+      "name": "IndiaGP"
+    },
+    "ShenzenCorp" :
+    {
+      "name" : "ShenzenCorp"
     }
   }
 }
