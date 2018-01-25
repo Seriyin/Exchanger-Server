@@ -1,10 +1,10 @@
-package http;
+package pt.um.exchanger.http;
 
-import app.Server;
+import pt.um.exchanger.app.Server;
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.json.JsonHttpContent;
-import model.Address;
+import pt.um.exchanger.model.Address;
 
 import java.io.IOException;
 import java.util.TimerTask;
@@ -30,7 +30,7 @@ public class BuildLive extends TimerTask
         try
         {
             GenericUrl url =
-                    new GenericUrl("localhost:/api/exchanges");
+                    new GenericUrl("http://localhost:8080/api/exchanges");
             HttpRequestFactory rf = Server.HTTP_TRANSPORT.createRequestFactory();
             rf.buildPutRequest(url, new JsonHttpContent(Server.JSON_FACTORY, localhost)).executeAsync();
         }
